@@ -1,0 +1,42 @@
+
+.autocompletewrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .suggestionslist {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    right: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .suggestionslist li {
+    padding: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    background-color:white ;
+    font-family: Karla;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    margin-bottom: 0.3rem;
+    /* border-bottom: 0.1rem solid #ccc; */
+  }
+  
+  .suggestionslist li:hover {
+    background-color: #f3fafd;
+  }
+
+  .input {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    background-color: #f3fafd;
+    font-family: Karla;
+  }
